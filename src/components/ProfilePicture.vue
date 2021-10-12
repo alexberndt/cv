@@ -1,5 +1,5 @@
 <template>
-  <div class="profile">
+  <div class="profile container">
       <img src="@/assets/square.jpg" alt="Profile Picture" id="profilepicture">
   </div>
 </template>
@@ -17,11 +17,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
-#profilepicture {
+.profile {
     position: relative;
+    top: -100px;
+}
+#profilepicture {
     width: 200px;
     height: 200px;
-    top: -100px;
     object-fit:cover;
     border-radius: 50%;
     border: 8px solid rgb(255, 255, 255);

@@ -1,9 +1,11 @@
 <template>
   <div class="router">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/">Home</router-link>
+      <router-link to="/">Home</router-link> -
+      <router-link to="/about">About</router-link> -
+      <router-link to="/experience">Experience</router-link> - 
+      <router-link to="/projects">Projects</router-link> -
+      <router-link to="/hobbies">Hobbies</router-link>
     </div>
   </div>
 </template>
@@ -16,17 +18,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
-// .router {
-//   border: 2px dashed #f69c55;
-// }
 #nav {
+  top: -80px;
   position: relative;
-  top: 305px;
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: var(--text-regular); //#2c3e50;
     &.router-link-exact-active {
-      color: #42b983;
+      color: var(--text-highlight); //#42b983
     }
     text-decoration: none;
   }

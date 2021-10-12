@@ -7,11 +7,8 @@
         id="video" 
         class="container">
         <h1 id="heading">{{ msg }}</h1>
-        <!-- <img src="@/assets/square.jpg" alt="Profile Picture" id="profilepicture"> -->
     </video-background>
 </template>
-
-
 
 <script>
 import VideoBackground from 'vue-responsive-video-background-player'
@@ -40,13 +37,11 @@ export default {
 }
 
 #profilepicture {
-    // position: relative;
     width: 200px;
     height: 200px;
     top: 30px;
     object-fit:cover;
     border-radius: 50%;
     border: 8px solid rgb(214, 214, 214);
-    // z-index: 1000;
 }
 </style>
