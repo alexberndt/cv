@@ -21,12 +21,10 @@ export default {
 
 <style scoped lang="scss">
 a {
-    padding: 5px;
-}
-a:visited {
   color: pink;
   background-color: transparent;
   text-decoration: none;
+  padding: 5px;
 }
 
 a:hover {
