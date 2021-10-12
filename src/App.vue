@@ -1,9 +1,7 @@
 <template>
-  <VideoHeader msg="Alex Berndt"/>
-  <div class="container-fluid">
-    <ProfilePicture/>
-    <Router/>
-  </div>
+  <VideoHeader msg="Alex Berndt" id="video-header"/>
+  <ProfilePicture id="ppic"/>
+  <Router/>
   <router-view/>
   <Footer msg="date"/>
 </template>
@@ -32,9 +30,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  z-index: -1;
 }
+
 .container-fluid {
-    padding: 0px;
-    margin: 0px;
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
 }
 </style>
