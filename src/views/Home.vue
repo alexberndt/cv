@@ -1,7 +1,12 @@
 <template>
   <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Home Page Home Page Home Page</h1>
+    <h1>Home Page Home Page Home Page</h1>
+    <h1>Home Page Home Page Home Page</h1>
+    <h1>Home Page Home Page Home Page</h1>
+    <h1>Home Page Home Page Home Page</h1>
+    <h1>Home Page Home Page Home Page</h1>
+    <h1>Home Page Home Page Home Page</h1>
   </div>
 </template>
 
@@ -11,3 +16,9 @@ export default {
   name: 'Home'
 }
 </script>
+
+<style lang="scss">
+.home {
+  border: 2px dashed #f69c55;
+}
+</style>

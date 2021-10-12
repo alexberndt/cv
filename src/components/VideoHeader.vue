@@ -38,7 +38,7 @@ div {
   left: 0px;
   width: 100%;
   text-align: center;
-  border: 4px dashed #f69c55;
+//   border: 4px dashed #f69c55;
 }
 span {
   display: inline-block;

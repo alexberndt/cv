@@ -2,24 +2,25 @@
   <div>
     <VideoHeader msg="Alex Berndt"/>
     <ProfilePicture/>
-  </div>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/">Home</router-link>
+    <Router/>
   </div>
   <router-view/>
+  <Footer msg="date"/>
 </template>
 
 <script>
 import VideoHeader from '@/components/VideoHeader.vue'
 import ProfilePicture from '@/components/ProfilePicture.vue'
+import Router from '@/components/Router.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     VideoHeader,
     ProfilePicture,
+    Router,
+    Footer,
   }
 }
 </script>
