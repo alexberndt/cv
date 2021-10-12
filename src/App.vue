@@ -51,4 +51,17 @@ export default {
   margin-right: auto;
   margin-left: auto;
 }
+
+a {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
 </style>
