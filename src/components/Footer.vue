@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="container">
       <p>{{ msg }}</p>
-      <p>2021</p>
+      <fa icon="coffee" />
     </div>
   </div>
 </template>
@@ -12,7 +12,7 @@
 export default {
   name: 'Footer',
   props: {
-    msg: String
+    msg: String,
   }
 }
 </script>
@@ -20,10 +20,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 div {
-    background-color: var(--footer-color);
+  color: var(--footer-color-text);
+  background-color: var(--footer-color-background);
 }
 
 .container {
-  padding: 15px;
+  padding: 25px;
 }
 </style>

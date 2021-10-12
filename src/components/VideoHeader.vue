@@ -1,9 +1,9 @@
 <template>
     <video-background 
-        :src="require(`@/assets/roadster-loop-imperial.mp4`)"
-        :poster="require(`@/assets/main_static.png`)"
+        :src="require(`@/assets/mountains_green.mp4`)"
+        :poster="require(`@/assets/mountain_static.png`)"
         style="max-height: 300px; height: 100vh;"
-        overlay="linear-gradient(90deg,#2a4ae430,#fb949e6b)"
+        overlay="linear-gradient(90deg,#00000038,#00000038)"
         id="video" 
         class="container">
         <h1 id="heading">{{ msg }}</h1>
@@ -32,7 +32,7 @@ export default {
 }
 
 #heading {
-    color: #DDD;
+    color: rgb(223, 223, 223);
     padding-top: 110px;
 }
 

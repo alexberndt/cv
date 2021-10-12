@@ -23,9 +23,9 @@ export default {
   position: relative;
   a {
     font-weight: bold;
-    color: var(--text-regular); //#2c3e50;
+    color: var(--text-navbar); 
     &.router-link-exact-active {
-      color: var(--text-highlight); //#42b983
+      color: var(--text-navbar-highlight); 
     }
     text-decoration: none;
   }

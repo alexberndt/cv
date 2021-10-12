@@ -1,5 +1,8 @@
 :root {
-    --footer-color: #e2e2e2;
     --text-regular: #2c3e50;
-    --text-highlight: #42b983;
+    --text-highlight: #34634e;
+    --text-navbar: #7e7e7e;
+    --text-navbar-highlight: #192c24;
+    --footer-color-background: #2c3e50;
+    --footer-color-text: rgb(71, 97, 128);
   }

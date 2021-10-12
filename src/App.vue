@@ -3,7 +3,7 @@
   <ProfilePicture />
   <Router class="container"/>
   <router-view class="container content" />
-  <Footer msg="date" />
+  <Footer msg="© 2021" />
 </template>
 
 <script>
@@ -27,7 +27,7 @@ export default {
 @import "./assets/styles/variables.css";
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -35,7 +35,11 @@ export default {
   z-index: -1;
 }
 
+
+
 .content {
+  -webkit-overflow-scrolling: touch;
+  flex: auto;
   padding-top: 5px;
   padding-bottom: 75px;
 }
