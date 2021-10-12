@@ -19,7 +19,7 @@ export default {
 
 <style scoped lang="scss">
 #nav {
-  top: -80px;
+  top: -105px;
   position: relative;
   a {
     font-weight: bold;

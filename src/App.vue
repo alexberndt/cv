@@ -1,6 +1,7 @@
 <template>
   <VideoHeader msg="Alexander Berndt" id="video-header" />
   <ProfilePicture />
+  <SocialMedia class="container"/>
   <Router class="container"/>
   <router-view class="container content" />
   <Footer msg="© 2021" />
@@ -9,6 +10,7 @@
 <script>
 import VideoHeader from "@/components/VideoHeader.vue";
 import ProfilePicture from "@/components/ProfilePicture.vue";
+import SocialMedia from "@/components/SocialMedia.vue";
 import Router from "@/components/Router.vue";
 import Footer from "@/components/Footer.vue";
 
@@ -17,6 +19,7 @@ export default {
   components: {
     VideoHeader,
     ProfilePicture,
+    SocialMedia,
     Router,
     Footer,
   },
@@ -34,8 +37,6 @@ export default {
   color: #2c3e50;
   z-index: -1;
 }
-
-
 
 .content {
   -webkit-overflow-scrolling: touch;

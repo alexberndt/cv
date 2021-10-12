@@ -1,9 +1,9 @@
 <template>
     <video-background 
-        :src="require(`@/assets/mountains_green.mp4`)"
+        :src="require(`@/assets/beach_red.mp4`)"
         :poster="require(`@/assets/mountain_static.png`)"
         style="max-height: 300px; height: 100vh;"
-        overlay="linear-gradient(90deg,#00000038,#00000038)"
+        overlay="linear-gradient(90deg,#00000050,#00000050)"
         id="video" 
         class="container">
         <h1 id="heading">{{ msg }}</h1>

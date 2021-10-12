@@ -2,17 +2,21 @@
   <div class="container-fluid">
     <div class="container">
       <p>{{ msg }}</p>
-      <fa icon="coffee" />
+      <social-media />
     </div>
   </div>
 </template>
 
 <script>
+import SocialMedia from '@/components/SocialMedia.vue'
 
 export default {
   name: 'Footer',
   props: {
     msg: String,
+  },
+  components: {
+    "social-media": SocialMedia
   }
 }
 </script>
