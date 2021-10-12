@@ -17,8 +17,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.home {
-  border: 2px dashed #f69c55;
-}
+<style scoped lang="scss">
+// .home {
+//   border: 2px dashed #f69c55;
+// }
 </style>

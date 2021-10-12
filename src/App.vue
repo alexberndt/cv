@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <VideoHeader msg="Alex Berndt"/>
+  <VideoHeader msg="Alex Berndt"/>
+  <div class="container-fluid">
     <ProfilePicture/>
     <Router/>
   </div>
@@ -33,17 +33,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
-#nav {
-  position: relative;
-  top: 305px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-    text-decoration: none;
-  }
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
 }
 </style>

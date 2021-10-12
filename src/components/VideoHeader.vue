@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <!-- <div class="container-fluid"> -->
     <video-background 
         :src="require(`@/assets/roadster-loop-imperial.mp4`)"
         :poster="require(`@/assets/main_static.png`)"
@@ -9,11 +9,16 @@
         class="container">
         <h1 id="heading">{{ msg }}</h1>
     </video-background>
-  </div>
+  <!-- </div> -->
 </template>
+
+
 
 <script>
 import VideoBackground from 'vue-responsive-video-background-player'
+
+// 
+// 
 
 export default {
   name: 'VideoHeader',
@@ -28,21 +33,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#heading {
-    font-size: 60px;
-    color: white;
-}
-div {
-  position: absolute;
-  top:0px;
-  left: 0px;
-  width: 100%;
-  text-align: center;
-//   border: 4px dashed #f69c55;
-}
-span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+.container {
+    max-width: 100%;
+    padding: 0px;
 }
 </style>

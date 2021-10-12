@@ -17,15 +17,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #profilepicture {
-    top: 160px;
-    position: relative;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     // overflow: hidden;
     object-fit:cover;
     border-radius: 50%;
-    border: 10px dashed #f69c55;
-    // border: 8px solid #FFF;
+    // border: 2px dashed #f69c55;
     z-index: 0;
 }
 </style>

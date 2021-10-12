@@ -15,8 +15,20 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.router {
-  border: 2px dashed #f69c55;
+<style scoped lang="scss">
+// .router {
+//   border: 2px dashed #f69c55;
+// }
+#nav {
+  position: relative;
+  top: 305px;
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+    text-decoration: none;
+  }
 }
 </style>
