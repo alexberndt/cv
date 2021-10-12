@@ -1,9 +1,15 @@
 # build stage
 FROM node:lts-alpine as build-stage
+
 WORKDIR /app
+
 COPY package*.json ./
 RUN npm install
-COPY . .
+
+COPY ./src ./src
+COPY ./public ./public
+COPY ./babel.config.js ./babel.config.js
+COPY ./.eslintrc.js ./.eslintrc.js
 RUN npm run build
 
 # production stage

@@ -1,24 +1,14 @@
-# personal-website
+# Personal Website
 
-## Project setup
-```
-npm install
-```
+The Dockerized app can be run as follows
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+docker build -t personal-website:dev .
+docker run -it -p 8000:80 personal-website:dev
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Or using `docker-compose.yml` as follows
 
-### Lints and fixes files
 ```
-npm run lint
+docker-compose up --build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
