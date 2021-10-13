@@ -1,7 +1,7 @@
 <template>
     <video-background 
         :src="require(`@/assets/beach_red.mp4`)"
-        :poster="require(`@/assets/mountain_static.png`)"
+        :poster="require(`@/assets/static.jpg`)"
         style="max-height: 300px; height: 100vh;"
         overlay="linear-gradient(90deg,#00000050,#00000050)"
         id="video" 
