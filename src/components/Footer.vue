@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
     <div class="container">
+      <social-media/>
       <p>{{ msg }}</p>
-      <social-media />
     </div>
   </div>
 </template>
@@ -28,7 +28,27 @@ div {
   background-color: var(--footer-color-background);
 }
 
+p {
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
 .container {
   padding: 25px;
+}
+</style>
+
+<style lang="scss">
+.social-media {
+  color: var(--footer-regular);
+  background-color: transparent;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.social-media:hover {
+  color: var(--footer-highlight);
+  background-color: transparent;
+  text-decoration: underline;
 }
 </style>

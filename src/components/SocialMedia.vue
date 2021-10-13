@@ -1,12 +1,12 @@
 <template>
   <div class="social-media">
-    <a href="https://www.linkedin.com/in/alexander-berndt/">
+    <a class="social-media" href="https://www.linkedin.com/in/alexander-berndt/">
       <fa :icon="['fab', 'linkedin']" class="fa-lg"/>
     </a>
-    <a href="https://github.com/alexberndt">
+    <a class="social-media" href="https://github.com/alexberndt">
       <fa :icon="['fab', 'github']" class="fa-lg"/>
     </a>
-    <a href="https://www.instagram.com/berndtalexander/">
+    <a class="social-media" href="https://www.instagram.com/berndtalexander/">
       <fa :icon="['fab', 'instagram']" class="fa-lg"/>
     </a>
   </div>
@@ -19,16 +19,16 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-a {
-  color: pink;
+<style lang="scss">
+.social-media {
+  color: var(--social-regular);
   background-color: transparent;
   text-decoration: none;
   padding: 5px;
 }
 
-a:hover {
-  color: red;
+.social-media:hover {
+  color: var(--social-highlight);
   background-color: transparent;
   text-decoration: underline;
 }
