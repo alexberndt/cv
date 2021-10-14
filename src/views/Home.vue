@@ -1,8 +1,7 @@
 <template>
   <div class="home">
-    <h1>Bio</h1>
     <span>
-      My name is Alex.
+      Hi! My name is Alex. 
     </span>
   </div>
 </template>

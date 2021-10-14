@@ -1,25 +1,55 @@
 <template>
   <div class="experience">
     <h1>Experience</h1>
-    <h2>Subheading 1</h2>
-    <span>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </span>
-    <h2>Subheading 2</h2>
-    <span>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </span>
+    <experience-card 
+      company="Dashmote B.V." 
+      role="Data Scientist" 
+      location="Amsterdam, The Netherlands"
+      content="Developed ML pipelines for various components of Dashmote's data product."
+      srcimg="square.jpg"
+    />
+    <experience-card 
+      company="Vehicle Dynamics Group" 
+      role="Robotics Engineer" 
+      location="Pretoria, South Africa"
+      content="Developed collision avoidance algorithms for mining vehicles."
+      srcimg="square.jpg"
+    />
+    <h1>Internships</h1>
+    <experience-card 
+      company="TOPdesk Nederland B.V." 
+      role="Software Developer" 
+      location="Delft, The Netherlands"
+      content="Designed, developed and deployed a citizen incident alert app with input from the Delft municipality."
+      srcimg="square.jpg"
+    />
+    <experience-card 
+      company="Mechatronics Engineer" 
+      role="Specialist Condition Monitoring" 
+      location="Johannesburg, South Africa"
+      content="Designed, developed and deployed a citizen incident alert app with input from the Delft municipality."
+      srcimg="square.jpg"
+    />
   </div>
 </template>
 
 <script>
+import ExperienceCard from '@/components/ExperienceCard.vue'
 
 export default {
-  name: 'Experience'
+  name: 'Experience',
+  components: {
+    "experience-card": ExperienceCard
+  }
 }
 </script>
 
 <style scoped lang="scss">
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
 .experience {
   text-align: left;
 }

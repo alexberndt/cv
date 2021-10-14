@@ -1,8 +1,8 @@
 <template>
   <VideoHeader msg="Alexander Berndt" id="video-header" />
   <ProfilePicture />
-  <SocialMedia class="container"/>
-  <Router class="container"/>
+  <SocialMedia class="container social-media"/>
+  <Router class="container router"/>
   <router-view class="container content" />
   <Footer msg="© 2021 by Alex Berndt" />
 </template>
