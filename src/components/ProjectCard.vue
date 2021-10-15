@@ -10,10 +10,10 @@
                 </div>  
             </div>
             <div class="col-md-4" v-if="srcimg1">
-                <img :src="require(`@/assets/img/projects/${srcimg1}`)" class="img-fluid rounded p-1" :alt="name">
+                <img :src="require(`@/assets/img/photos/${srcimg1}`)" class="img-fluid rounded p-1" :alt="name">
             </div>
             <div class="col-md-4" v-if="srcimg2">
-                <img :src="require(`@/assets/img/projects/${srcimg2}`)" class="img-fluid rounded p-1" :alt="name">
+                <img :src="require(`@/assets/img/photos/${srcimg2}`)" class="img-fluid rounded p-1" :alt="name">
             </div>
         </div>
     </div> 
