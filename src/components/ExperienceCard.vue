@@ -3,7 +3,7 @@
     <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-3">
-                <img :src="require(`@/assets/img/experience/${srcimg}`)" class="img-fluid rounded p-2" alt="...">
+                <img :src="require(`@/assets/images/experience/${srcimg}`)" class="img-fluid rounded p-2" alt="...">
             </div>
             <div class="col-md-9">
                 <div class="card-body">
