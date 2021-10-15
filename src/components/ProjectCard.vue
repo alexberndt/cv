@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card-body">
-                    <a href="">
+                    <a :href="link">
                         <h5 class="card-title mb-2">{{ name }}</h5>
                         <h6 v-if="link" class="card-subtitle mb-2 text-muted">{{ link }}</h6>
                     </a>
