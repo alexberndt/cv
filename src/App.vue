@@ -23,6 +23,14 @@ export default {
     Router,
     Footer,
   },
+  head () {
+    return {
+      meta: [{
+        'og:title': 'alexberndt.com',
+        'og:description': 'Bio, experience, projects and other information.'
+      }]
+    }
+  }
 };
 </script>
 
