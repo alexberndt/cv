@@ -11,7 +11,7 @@
                             <h5 class="card-title mb-2">{{ name }}</h5>
                         <p class="card-subtitle mb-2 text-muted">{{ authors }}</p>
                         <p class="card-text">{{ abstract }}</p>
-                        <p v-if="conference">{{ conference }}</p>
+                        <small v-if="conference" class="text-muted">{{ conference }}</small>
                     </div>  
                 <!-- </div> -->
             </div>
