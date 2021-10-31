@@ -45,10 +45,4 @@ a {
 a:hover {
     color: var(--text-highlight);
 }
-
-.container {
-  max-width: 768px;
-  margin: auto;
-  overflow: auto;
-}
 </style>

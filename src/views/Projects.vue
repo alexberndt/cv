@@ -2,20 +2,29 @@
   <div class="projects">
 
 
-    <h1>Projects</h1>
+    <h2>Personal</h2>
     <!-- <p class="m-4">A list of projects which I have worked on.</p>  -->
 
     <project-card
       name="ISS Tracker"
       link="https://iss-tracker.live"
       content="Webapp which shows the current location of the International Space Station
-      and some other stats."
+      and some other statistics."
       source_image_1="iss_space.jpg"
       source_image_2="iss_world.jpg"
     />
+
+    <project-card
+      name="Data-Driven Diary"
+      link="https://blog.alexberndt.com"
+      content="Blog about topics related, but not limited to,
+      machine learning, AI and algorithms in general."
+      source_image_1="blog3.jpg"
+      source_image_2="blog4.jpg"
+    />
     
     
-    <h1>Publications</h1>
+    <h2>Publications</h2>
     <!-- <p class="m-4">A List of publications which I have authored.</p> -->
 
     <publication-card
@@ -63,12 +72,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-h1 {
+h2 {
   text-align: center;
   padding: 20px;
 }
 
 .projects {
   text-align: left;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  overflow: auto;
 }
 </style>
