@@ -8,6 +8,7 @@
       use the best ML models, theoretically, but ensuring these pipelines
       are scalable and efficient in production.
     </p>
+    <h4>Education</h4>
     <p>
       I obtained my Masters degree in Systems & Control at the 
       <a href="https://www.tudelft.nl/3me/over/afdelingen/delft-center-for-systems-and-control">Delft Center for Systems and Control</a>
@@ -34,7 +35,7 @@
       <a href="https://ptolemy.berkeley.edu/projects/cps/">cyber-physical systems</a>,
       after which I ended up pursuing a career in industry.
     </p>
-    <h5>Interests</h5>
+    <h4>Interests</h4>
     <p>I am a generally curious person and interested in a wide variety of topics.
       In my current role as a machine learning engineer, I am particularly interested in
     </p>
