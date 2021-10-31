@@ -4,8 +4,7 @@
 
         <div class="col-md-3">
              <div id="verticle-line" class="d-flex flex-column justify-content-center align-items-center">
-                 <span class="badge bg-secondary">{{ date }}
-                 </span>                 
+                 <span class="badge bg-secondary">{{ date }}</span>   
              </div>
         </div>
 
@@ -14,11 +13,13 @@
                 <!-- <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> -->
                     <div class="card-body">
                         <h5 class="card-title mb-2">{{ role }}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">{{ company }}</h6>
-                            <!-- <div class="collapse multi-collapse" id="collapseExample"> -->
-                                <p class="card-text">{{ content }}</p>
-                            <!-- </div> -->
-                        <small class="text-muted">{{ location }}</small>
+                        <div class="text-muted font-italic">
+                            <small class="card-subtitle left">{{ company }}</small>
+                            <small class="card-subtitle right">{{ location }}</small>
+                        </div>
+                        <div class="mt-1">
+                            <small class="card-text">{{ content }}</small>
+                        </div>
                     </div> 
                 <!-- </a> -->
             </div>
@@ -51,22 +52,25 @@ img {
   height: 100%;
 }
 
+.flex-column {
+    padding: 5px;
+}
+
+.left {
+    width: 49%;
+    display: inline-block;
+}
+
+.right {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+
 #verticle-line {
   margin-right: 20px;
   min-height: 100%;
   vertical-align: middle;
   border-right: thick solid var(--text-regular);
-}
-.dot-outer {
-  height: 25px;
-  width: 25px;
-  background-color: var(--text-regular);
-  border-radius: 50%;
-}
-.dot-inner {
-  height: 15px;
-  width: 15px;
-  background-color: #999;
-  border-radius: 50%;
 }
 </style>

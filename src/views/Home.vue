@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <p>
-      I am a machine learning engineer at <a href="https://dashmote.com/ai-labs/">Dashmote B.V.</a> 
+      I am a machine learning engineer at 
+        <a href="https://dashmote.com/ai-labs/">Dashmote B.V.</a> 
       where I work on solving a wide variety of data-related problems.
       My main focus is on designing, implementing and orchestrating 
       machine learning pipelines. This not only involves ensuring we 
