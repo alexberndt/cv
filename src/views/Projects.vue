@@ -31,15 +31,26 @@
       name="Data-Driven Set-Based Estimation using Matrix Zonotopes with Set Containment Guarantees"
       link="https://arxiv.org/abs/2101.10784"
       authors="Alexander Berndt, Amr Alanwar, Karl Henrik Johansson, Henrik Sandberg"
-      abstract="We propose a method to perform set-based state estimation of an unknown dynamical system using a data-driven set propagation function."
+      abstract="We propose a method to perform set-based state estimation 
+                of an unknown dynamical system using a data-driven set propagation function.
+                Our method has proven set-containment guarantees given bounds on the 
+                observed input signals."
       source_image="IMG_3747.jpg"
     />
 
     <publication-card
-      name="A Feedback Scheme to Reorder a Multi-Agent Execution Schedule by Persistently Optimizing a Switchable Action Dependency Graph"
+      name="A Feedback Scheme to Reorder a Multi-Agent Execution 
+              Schedule by Persistently Optimizing a Switchable 
+              Action Dependency Graph"
       link="https://arxiv.org/abs/2010.05254"
-      authors="Alexander Berndt, Niels Van Duijkeren, Luigi Palmieri, Tamas Keviczky"
-      abstract="We propose a method to perform set-based state estimation of an unknown dynamical system using a data-driven set propagation function."
+      authors="Alexander Berndt, Niels Van Duijkeren, Luigi 
+              Palmieri, Tamas Keviczky"
+      abstract="We consider multiple Automated Guided Vehicles 
+                (AGVs) navigating a common workspace to fulfill 
+                various intralogistics tasks. We propose a novel, 
+                online persistent optimization scheme to reduce route 
+                completion times when AGVs are subject to delays.
+                "
       conference="ICAPS 2020 Nancy, France"
       source_image="IMG_3747.jpg"
     />
