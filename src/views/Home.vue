@@ -27,7 +27,7 @@
       in Stockholm, Sweden, as a PhD student under the supervision of 
       <a href="https://people.kth.se/~hsan/">Henrik Sandberg</a>
       and 
-      <a href="https://people.kth.se/~kallej/">Karl Henrkik Johansson</a>
+      <a href="https://people.kth.se/~kallej/">Karl Henrik Johansson</a>
       as part of the 
       <a href="https://www.kth.se/is/dcs/">Division of Decisions and Control Systems</a>.
       My research focus was on 
