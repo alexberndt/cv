@@ -31,8 +31,9 @@ docker push lxberndt/personal-website:$TAG
 
 ```
 docker stop CONTAINER_ID
-docker pull lxberndt/personal-website:dev
-docker run -d -it -p 8080:80 lxberndt/personal-website:dev
+export TAG=dev
+docker pull lxberndt/personal-website:$TAG
+docker run -d -it -p 8080:80 lxberndt/personal-website:$TAG
 ```
 
 If bind errors (port used)
