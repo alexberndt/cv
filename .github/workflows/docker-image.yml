@@ -9,9 +9,9 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-#       - name: Set output
-#         id: vars
-#         run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}    
+      - name: Set Tag Output
+        id: vars
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}    
       - name: Check output
         run: |
           echo ${{ steps.vars.outputs.tag }}
