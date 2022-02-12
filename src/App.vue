@@ -4,7 +4,7 @@
   <SocialMedia class="container social-media"/>
   <Router class="container router"/>
   <router-view class="container content" />
-  <Footer msg="© 2021 by Alex Berndt" />
+  <Footer msg="© 2022 by Alex Berndt" />
 </template>
 
 <script>
