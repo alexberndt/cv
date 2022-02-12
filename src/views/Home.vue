@@ -2,12 +2,10 @@
   <div class="home">
     <p>
       I am a machine learning engineer at 
-        <a href="https://dashmote.com/ai-labs/">Dashmote B.V.</a> 
-      where I work on solving a wide variety of data-related problems.
+        <a href="https://www.overstory.com/">Overstory B.V.</a> 
+      where I work on solving a wide variety of geospatial-related problems.
       My main focus is on designing, implementing and orchestrating 
-      machine learning pipelines. This not only involves ensuring we 
-      use the best ML models, theoretically, but ensuring these pipelines
-      are scalable and efficient in production.
+      machine learning pipelines.
     </p>
     <h4>Education</h4>
     <p>

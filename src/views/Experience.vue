@@ -1,12 +1,22 @@
 <template>
   <div class="experience">
 
-
         <experience-card 
-          company="Dashmote B.V." 
+          company="Overstory B.V." 
           role="Machine Learning Engineer" 
           location="Amsterdam, The Netherlands"
-          date="May 2021 - present"
+          date="Feb 2022 - present"
+          content="Working on geospatial-related machine learning challenges to 
+                    provide vegetation intelligence to our clients. Tools include 
+                    python-based repository productization using Docker, Dagster.io;
+                    data registry creation using STAC."
+          id="1"
+        />
+        <experience-card 
+          company="Dashmote B.V." 
+          role="Data Scientist" 
+          location="Amsterdam, The Netherlands"
+          date="May 2021 - Jan 2022"
           content="Designing and implementing various ML-pipeline 
                     components. This includes python-based 
                     algorithm design using scikit-learn, PyTorch and DVC; 
@@ -26,7 +36,7 @@
                     Open AI Gym."
           id="2"
         />
-        <experience-card 
+        <!-- <experience-card 
           company="TOPdesk Nederland B.V." 
           role="Software Developer" 
           location="Delft, The Netherlands"
@@ -36,7 +46,7 @@
                     integration and deployment of a citizen incident alert 
                     app using Docker, Jenkins for CI/CD, Javascript, Vue.js."
           id="3"
-        />
+        /> -->
         <experience-card 
           company="Vehicle Dynamics Group" 
           role="Algorithms Software Engineer" 
