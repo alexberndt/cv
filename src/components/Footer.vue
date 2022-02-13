@@ -3,6 +3,7 @@
     <div class="container">
       <social-media/>
       <p>{{ msg }}</p>
+      <p>{{ appVersion }}</p>
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ export default {
   name: 'Footer',
   props: {
     msg: String,
+    appVersion: String,
   },
   components: {
     "social-media": SocialMedia
@@ -29,12 +31,12 @@ div {
 }
 
 p {
-  padding-top: 35px;
-  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .container {
-  padding: 25px;
+  padding: 15px;
 }
 </style>
 

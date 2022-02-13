@@ -1,10 +1,10 @@
 <template>
   <VideoHeader msg="Alexander Berndt" id="video-header" />
   <ProfilePicture />
-  <SocialMedia class="container social-media"/>
-  <Router class="container router"/>
+  <SocialMedia class="container social-media" />
+  <Router class="container router" />
   <router-view class="container content" />
-  <Footer msg="© 2022 by Alex Berndt" />
+  <Footer msg="© 2022 by Alex Berndt" :appVersion="appVersion" />
 </template>
 
 <script>
@@ -13,6 +13,7 @@ import ProfilePicture from "@/components/ProfilePicture.vue";
 import SocialMedia from "@/components/SocialMedia.vue";
 import Router from "@/components/Router.vue";
 import Footer from "@/components/Footer.vue";
+import { version } from "../package";
 
 export default {
   name: "App",
@@ -23,14 +24,20 @@ export default {
     Router,
     Footer,
   },
-  head () {
+  setup() {
+    const appVersion = version;
+    return { appVersion };
+  },
+  head() {
     return {
-      meta: [{
-        'og:title': 'alexberndt.com',
-        'og:description': 'Bio, experience, projects and other information.'
-      }]
-    }
-  }
+      meta: [
+        {
+          "og:title": "alexberndt.com",
+          "og:description": "Bio, experience, projects and other information.",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -38,7 +45,7 @@ export default {
 @import "./assets/styles/variables.css";
 
 #app {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

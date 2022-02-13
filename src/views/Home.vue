@@ -2,7 +2,7 @@
   <div class="home">
     <p>
       I am a machine learning engineer at 
-        <a href="https://www.overstory.com/">Overstory B.V.</a> 
+        <a href="https://www.overstory.com/">Overstory.ai</a> 
       where I work on solving a wide variety of geospatial-related problems.
       My main focus is on designing, implementing and orchestrating 
       machine learning pipelines.

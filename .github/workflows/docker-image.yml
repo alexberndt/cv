@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:  
       -
+        name: Check Tag Matches
+        id: match-tag-to-package-version
+        uses: geritol/match-tag-to-package-version@0.2.0
+      -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
       -
