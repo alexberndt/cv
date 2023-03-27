@@ -3,7 +3,7 @@
 
         <experience-card 
           company="Overstory B.V." 
-          role="Machine Learning Engineer" 
+          role="Geospatial ML & Software Engineer" 
           location="Amsterdam, The Netherlands"
           date="Feb 2022 - present"
           content="Working on geospatial-related machine learning challenges to 
