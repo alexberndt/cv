@@ -7,7 +7,7 @@
 
     <project-card
       name="ISS Tracker"
-      link="https://iss-tracker.live"
+      link="https://iss-tracker.alexberndt.com"
       content="Webapp which shows the current location of the International Space Station
       and some other statistics."
       source_image_1="iss_space.jpg"
