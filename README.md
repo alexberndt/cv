@@ -1,14 +1,13 @@
 # Personal Website
 
-## Run with Docker
+## Run Locally
 
-The Dockerized app can be run as follows
+The app can be run locally using Docker as follows
 
 ```bash
 export TAG=dev
 docker build -t personal-website:$TAG .
-docker pull lxberndt/personal-website:$TAG
-docker run -d -it -p 8080:80 lxberndt/personal-website:$TAG
+docker run -d -it -p 8080:80 personal-website:$TAG
 ```
 
 Or using `docker-compose.yml` as follows
@@ -17,12 +16,20 @@ Or using `docker-compose.yml` as follows
 docker-compose up --build
 ```
 
-## Deploy to Dockerhub
+## Deploy to Docker Hub
+
+Build and tag the docker image locally
+
+```bash
+export TAG=dev
+docker build -t personal-website:$TAG .
+docker tag personal-website:$TAG lxberndt/personal-website:$TAG
+```
+
+Login and push to [Docker Hub](https://hub.docker.com/repository/docker/lxberndt/personal-blog/general)
 
 ```bash
 docker login
-export TAG=dev
-docker tag personal-website:$TAG lxberndt/personal-website:$TAG
 docker push lxberndt/personal-website:$TAG
 ```
 
