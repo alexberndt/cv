@@ -2,9 +2,9 @@
 
 [![Deploy to Docker Hub](https://github.com/alexberndt/personal-website/actions/workflows/docker-image.yml/badge.svg)](https://github.com/alexberndt/personal-website/actions/workflows/docker-image.yml)
 
-![diagram](/.github/media/personal_website.gif)
+A simple personal website built using [Vue.js](https://vuejs.org/) deployed to [alexberndt.com](https://alexberndt.com)
 
-Deployed to [alexberndt.com](https://alexberndt.com)
+![diagram](/.github/media/personal_website.gif)
 
 ---
 ## Run Locally
