@@ -44,7 +44,7 @@ docker push lxberndt/personal-website:$TAG
 
 ```bash
 docker stop CONTAINER_ID
-export TAG=dev
+export TAG=latest
 docker pull lxberndt/personal-website:$TAG
 docker run -d -it -p 8080:80 lxberndt/personal-website:$TAG
 ```
