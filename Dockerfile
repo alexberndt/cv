@@ -1,16 +1,17 @@
 # build stage
-FROM node:lts-alpine as build-stage
+FROM node:16.3.0-alpine as build-stage
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install
+COPY package.json ./
+COPY yarn.lock ./
+RUN yarn install --ignore-engines
 
 COPY ./src ./src
 COPY ./public ./public
 COPY ./babel.config.js ./babel.config.js
 COPY ./.eslintrc.js ./.eslintrc.js
-RUN npm run build
+RUN yarn build
 
 # production stage
 FROM nginx:stable-alpine as production-stage
