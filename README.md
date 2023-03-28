@@ -50,3 +50,25 @@ If bind errors (port used)
 docker container ls
 docker rm -f <container-name>
 ```
+
+## Development
+
+Clone and install dependencies
+
+```bash
+git clone git@github.com:alexberndt/personal-website.git
+cd personal-website
+yarn install
+```
+
+Run local development server
+
+```bash
+yarn start
+```
+
+Build for production
+
+```bash
+yarn build
+```
