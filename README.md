@@ -2,6 +2,11 @@
 
 [![Deploy to Docker Hub](https://github.com/alexberndt/personal-website/actions/workflows/docker-image.yml/badge.svg)](https://github.com/alexberndt/personal-website/actions/workflows/docker-image.yml)
 
+![diagram](/.github/media/personal_website.gif)
+
+Deployed to [alexberndt.com](https://alexberndt.com)
+
+---
 ## Run Locally
 
 The app can be run locally using Docker as follows
@@ -50,6 +55,8 @@ If bind errors (port used)
 docker container ls
 docker rm -f <container-name>
 ```
+
+---
 
 ## Development
 
