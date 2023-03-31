@@ -1,6 +1,6 @@
 {
-  "name": "alexander-berndt",
-  "version": "0.1.4",
+  "name": "cv",
+  "version": "0.1.5",
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",
