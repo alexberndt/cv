@@ -1,6 +1,6 @@
 # Personal Website
 
-[![Deploy to Docker Hub](https://github.com/alexberndt/personal-website/actions/workflows/docker-image.yml/badge.svg)](https://github.com/alexberndt/personal-website/actions/workflows/docker-image.yml)
+[![Deploy to Docker Hub](https://github.com/alexberndt/cv/actions/workflows/docker-image.yml/badge.svg)](https://github.com/alexberndt/cv/actions/workflows/docker-image.yml)
 
 A simple personal website built using [Vue.js](https://vuejs.org/) deployed to [alexberndt.com](https://alexberndt.com)
 
@@ -13,8 +13,8 @@ The app can be run locally using Docker as follows
 
 ```bash
 export TAG=dev
-docker build -t personal-website:$TAG .
-docker run -d -it -p 8080:80 personal-website:$TAG
+docker build -t cv:$TAG .
+docker run -d -it -p 8080:80 cv:$TAG
 ```
 
 Or using `docker-compose.yml` as follows
@@ -29,15 +29,15 @@ Build and tag the docker image locally
 
 ```bash
 export TAG=dev
-docker build -t personal-website:$TAG .
-docker tag personal-website:$TAG lxberndt/personal-website:$TAG
+docker build -t cv:$TAG .
+docker tag cv:$TAG lxberndt/cv:$TAG
 ```
 
 Login and push to [Docker Hub](https://hub.docker.com/repository/docker/lxberndt/personal-blog/general)
 
 ```bash
 docker login
-docker push lxberndt/personal-website:$TAG
+docker push lxberndt/cv:$TAG
 ```
 
 ## On server
@@ -45,8 +45,8 @@ docker push lxberndt/personal-website:$TAG
 ```bash
 docker stop CONTAINER_ID
 export TAG=latest
-docker pull lxberndt/personal-website:$TAG
-docker run -d -it -p 8080:80 lxberndt/personal-website:$TAG
+docker pull lxberndt/cv:$TAG
+docker run -d -it -p 8080:80 lxberndt/cv:$TAG
 ```
 
 If bind errors (port used)
@@ -63,8 +63,8 @@ docker rm -f <container-name>
 Clone and install dependencies
 
 ```bash
-git clone git@github.com:alexberndt/personal-website.git
-cd personal-website
+git clone git@github.com:alexberndt/cv.git
+cd cv
 yarn install
 ```
 
