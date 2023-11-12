@@ -2,14 +2,16 @@
   <div class="experience">
 
         <experience-card 
-          company="Overstory B.V." 
-          role="Geospatial ML & Software Engineer" 
+          company="Overstory" 
+          role="Senior Software Engineer" 
           location="Amsterdam, The Netherlands"
           date="Feb 2022 - present"
-          content="Working on geospatial-related machine learning challenges to 
-                    provide vegetation intelligence to our clients. Tools include 
-                    python-based repository productization using Docker, Dagster.io;
-                    data registry creation using STAC."
+          content="Working on solving geospatial-related software challenges to 
+                    provide 3D vegetation intelligence to clients using (tri)-stereo
+                    satellite imagery, with a focus on algorithm optimization,
+                    infrastructure and data pipeline design. 
+                    My daily work stack includes Python, Docker, K8s, Dagster, 
+                    Dask, Terraform, Google Cloud Platform (GCP), Github Actions."
           id="1"
         />
         <experience-card 
@@ -17,24 +19,23 @@
           role="Data Scientist" 
           location="Amsterdam, The Netherlands"
           date="May 2021 - Jan 2022"
-          content="Designing and implementing various ML-pipeline 
-                    components. This includes python-based 
-                    algorithm design using scikit-learn, PyTorch and DVC; 
-                    productization using Docker, Amazon Web Services and Jenkins;
-                    and improving the dataset creation process 
-                    using FastAPI, Vue.js and Terraform."
-          id="1"
+          content="Designed and implemented multiple production-ready NLP ML-pipeline 
+                    components, custom algorithms and created the company's first in-house 
+                    dataset labelling and QA process. My daily work stack included Amazon 
+                    Web Services (AWS) EC2 and EMR, 
+                    Jenkins CI/CD, scikit-learn, PyTorch, DVC, FastAPI, Vue.js."
+          id="2"
         />
         <experience-card 
           company="KTH Royal Institute of Technology" 
           role="Thesis Supervisor on Reinforcement Learning" 
           location="Stockholm, Sweden"
           date="Nov 2020 - Apr 2021"
-          content="Supervised the final-year thesis of Joel Kärn
+          content="Supervised and guided the final-year thesis of students
                     on the topic of reinforcement learning and data-driven
                     control of an inverse pendulum in Python using PyTorch,
                     Open AI Gym."
-          id="2"
+          id="3"
         />
         <!-- <experience-card 
           company="TOPdesk Nederland B.V." 
@@ -45,7 +46,7 @@
                     including the design, development and continuous 
                     integration and deployment of a citizen incident alert 
                     app using Docker, Jenkins for CI/CD, Javascript, Vue.js."
-          id="3"
+          id="4"
         /> -->
         <experience-card 
           company="Vehicle Dynamics Group" 
@@ -54,13 +55,13 @@
           date="Jan 2016 - Aug 2017"
           content="Designed, developed and validated software to perform
                     collision avoidance for heavy-duty mining vehicles with support
-                    from the Mine Health and Safety Council of South Africa.
-                    Specifically focused on implementing a Differential GPS-based 
+                    from the Mine Health and Safety Council (MHSC) of South Africa.
+                    My work focused on implementing a Differential GPS-based (DGPS)
                     collision avoidance scheme using C++, Simulink and dSPACE."
-          id="4"
+          id="5"
         />
         <experience-card 
-          role="Mechatronics and Software Engineer" 
+          role="Mechatronics Engineer" 
           company="Agile Drones Lab @ MIT" 
           location="Cambridge, USA"
           date="May 2015 - Dec 2015"
@@ -70,7 +71,7 @@
                     performing aggressive, agile maneuvers using 
                     only stereo vision, i.e., without motion-capture 
                     based state knowledge."
-          id="5"
+          id="6"
         />
         
 
