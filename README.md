@@ -79,3 +79,20 @@ Build for production
 ```bash
 yarn build
 ```
+
+## Mac Setup
+
+Install `node` v16 and the `yarn` package manager
+```bash
+brew install node@16 
+brew install yarn
+```
+
+
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+```bash
+yarn start
+```

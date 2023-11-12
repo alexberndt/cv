@@ -1,15 +1,22 @@
 <template>
   <div class="profile container">
-      <img src="@/assets/square.jpg" alt="Profile Picture" id="profilepicture">
+      <img :src="profile_picture_link" alt="Profile Picture" id="profilepicture">
   </div>
 </template>
+
+<!-- "https://media.licdn.com/dms/image/D4E03AQGsf5YpTkFxwQ/profile-displayphoto-shrink_200_200/0/1698350010295?e=1704931200&v=beta&t=eb3whvtqVhTwM3iJDhMB5oat7BRd2sIwOrcLUjT5gP0" -->
 
 <script>
 
 export default {
   name: 'ProfilePicture',
   props: {
-    msg: String
+    msg: String,
+  },
+  setup(){
+    const value = "Alex"
+    const profile_picture_link = "https://github.com/alexberndt.png"
+    return { profile_picture_link, value }
   },
 }
 </script>
