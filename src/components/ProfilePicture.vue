@@ -1,6 +1,6 @@
 <template>
   <div class="profile container">
-      <img :src="profile_picture_link" alt="Profile Picture" id="profilepicture">
+      <img :src="profile_picture_link" :alt="profile_picture_alt" id="profilepicture">
   </div>
 </template>
 
@@ -14,9 +14,9 @@ export default {
     msg: String,
   },
   setup(){
-    const value = "Alex"
+    const profile_picture_alt = "Alex"
     const profile_picture_link = "https://github.com/alexberndt.png"
-    return { profile_picture_link, value }
+    return { profile_picture_link, profile_picture_alt }
   },
 }
 </script>
