@@ -9,7 +9,9 @@
                 <!-- <div class="col-md-8"> -->
                     <div class="card-body">
                             <h5 class="card-title mb-2">{{ name }}</h5>
-                        <p class="card-subtitle mb-2 text-muted">{{ authors }}</p>
+                        <div class="card-subtitle mb-2 text-muted">
+                            <span>{{ nonhighlight_first_author }} </span><b>{{ highlight_author }} </b><span>, {{ other_authors }}</span>
+                        </div>
                         <p class="card-text">{{ abstract }}</p>
                         <p>
                             <small v-if="conference" class="text-muted">{{ conference }}</small>
@@ -29,7 +31,9 @@ export default {
   props: {
     name: String,
     link: String,
-    authors: String,
+    nonhighlight_first_author: String,
+    highlight_author: String,
+    other_authors: String,
     abstract: String,
     conference: String,
     source_image: String,
