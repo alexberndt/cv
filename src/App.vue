@@ -1,5 +1,5 @@
 <template>
-  <VideoHeader msg="Alexander Berndt" id="video-header" />
+  <VideoHeader msg="Alex Berndt" id="video-header" />
   <ProfilePicture />
   <SocialMedia class="container social-media" />
   <Router class="container router" />
