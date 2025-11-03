@@ -1,10 +1,10 @@
 <template>
-  <VideoHeader msg="Alexander Berndt" id="video-header" />
+  <VideoHeader msg="Alex Berndt" id="video-header" />
   <ProfilePicture />
   <SocialMedia class="container social-media" />
   <Router class="container router" />
   <router-view class="container content" />
-  <Footer msg="© 2023 by Alex Berndt" :appVersion="appVersion" />
+  <Footer msg="© 2025 by Alex Berndt" :appVersion="appVersion" />
 </template>
 
 <script>
