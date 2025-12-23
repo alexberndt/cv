@@ -4,6 +4,7 @@
       <router-link to="/">Bio</router-link> -
       <!-- <router-link to="/about">About</router-link> - -->
       <router-link to="/experience">Experience</router-link> - 
+      <router-link to="/cv">CV</router-link> - 
       <router-link to="/projects">Projects</router-link> -
       <router-link to="/hobbies">Photos</router-link>
     </div>
