@@ -65,7 +65,7 @@ Clone and install dependencies
 ```bash
 git clone git@github.com:alexberndt/cv.git
 cd cv
-yarn install
+yarn install --ignore-engines
 ```
 
 Run local development server

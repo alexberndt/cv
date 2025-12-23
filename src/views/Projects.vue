@@ -3,29 +3,26 @@
 
 
     <h2>Personal</h2>
-    <!-- <p class="m-4">A list of projects which I have worked on.</p>  -->
 
     <project-card
       name="ISS Tracker"
       link="https://iss-tracker.alexberndt.com"
-      content="Webapp which shows the current location of the International Space Station
-      and some other statistics."
+      content="Webapp showing the current location of the ISS
+      and related metrics."
       source_image_1="iss_space.jpg"
       source_image_2="iss_world.jpg"
     />
 
     <project-card
-      name="Data-Driven Diary"
+      name="Notepad"
       link="https://blog.alexberndt.com"
-      content="Blog about topics related, but not limited to,
-      machine learning, AI and algorithms in general."
+      content="Thoughts on software engineering, machine-learning, system design and more"
       source_image_1="blog3.jpg"
       source_image_2="blog4.jpg"
     />
     
     
     <h2>Publications</h2>
-    <!-- <p class="m-4">A List of publications which I have authored.</p> -->
   
     <publication-card
       name="Receding Horizon Re-ordering of Multi-Agent Execution Schedules"
@@ -37,7 +34,7 @@
                 When compared to the state-of-the-art MAPF planners, our approach yields a
                 significant reduction in cumulative route completion times for AGVs subjected 
                 to large delays, often experienced in uncertain environments with dynamic obstacles"
-      conference="Transactions on Robotics (T-RO) Journal - preprint"
+      conference="IEEE Transactions on Robotics Journal - Vol. 40, 2024"
       source_image="IMG_3747.jpg"
     />
 

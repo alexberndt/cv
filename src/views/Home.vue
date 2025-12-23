@@ -1,26 +1,27 @@
 <template>
   <div class="home">
     <p>
-      Software and data engineer working at 
-        <a href="https://www.overstory.com/">Overstory</a> 
-      where I work on solving a wide variety of geospatial-related problems.
-      My contributions include algorithm optimization
+      Software / infra / ML engineer currently working at 
+        <a href="https://www.overstory.com/">Overstory B.V.</a> 
+      <!-- working at 
+        <a href="https://www.overstory.com/">Overstory B.V.</a> 
+      where I work on solving a wide variety of geospatial-related problems. -->
+      <!-- My contributions include algorithm optimization
         e.g. using parallel processing,
-        maintaining infrastructure and resource provisioning,
+        maintaining infrastructure and resource provisioning. -->
         
     </p>
-    <h4>Interests</h4>
-    <p>In my role as a software engineer, my current interests include</p>
+    <h4>Current Focus</h4>
+    <p>I'm currently working on the following topics:</p>
     <ul>
-      <li>Algorithm optimization using distributed tools like <a href="https://www.dask.org/">Dask</a>, and improved <a href="https://kubernetes.io/">K8s</a> provisioning,</li>
-      <li>Developing, maintaining and orchestrating data pipelines using <a href="https://dagster.io/">Dagster</a>,</li>
-      <li>Interfacing business value and algorithm optimization functions.</li>
+      <li>MLOps infrastructure at Overstory</li>
+      <li>Refining our use of GPUs for scale</li>
     </ul>
-    <p>Some non-work related interests include</p>
+    <h4>Interests</h4>
     <ul>
-      <li>Chess,</li>
-      <li>Playing the piano or guitar,</li>
-      <li>Outdoor activities like mountain biking, skiing, hiking.</li>
+      <li>Machine-learning applied to geospatial and vegetation-related challenges</li>
+      <li>Developing, maintaining and orchestrating pipelines using <a href="https://dagster.io/">dagster.io</a>,</li>
+      <li>Software architecture and system design; mostly related to machine-learning.</li>
     </ul>
     <h4>Education</h4>
     <p>

@@ -2,7 +2,7 @@
   <div class="experience">
 
         <experience-card 
-          company="Overstory" 
+          company="Overstory B.V." 
           role="Senior Software Engineer" 
           location="Amsterdam, The Netherlands"
           date="Feb 2022 - present"
