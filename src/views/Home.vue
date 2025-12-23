@@ -1,12 +1,13 @@
 <template>
   <div class="home">
     <p>
-      Software and data engineer working at 
-        <a href="https://www.overstory.com/">Overstory</a> 
-      where I work on solving a wide variety of geospatial-related problems.
-      My contributions include algorithm optimization
+      Software / infra / ML engineer
+      <!-- working at 
+        <a href="https://www.overstory.com/">Overstory B.V.</a> 
+      where I work on solving a wide variety of geospatial-related problems. -->
+      <!-- My contributions include algorithm optimization
         e.g. using parallel processing,
-        maintaining infrastructure and resource provisioning,
+        maintaining infrastructure and resource provisioning. -->
         
     </p>
     <h4>Interests</h4>

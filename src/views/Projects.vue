@@ -37,7 +37,7 @@
                 When compared to the state-of-the-art MAPF planners, our approach yields a
                 significant reduction in cumulative route completion times for AGVs subjected 
                 to large delays, often experienced in uncertain environments with dynamic obstacles"
-      conference="Transactions on Robotics (T-Ro) Journal - preprint"
+      conference="IEEE Transactions on Robotics Journal - Vol. 40, 2024"
       source_image="IMG_3747.jpg"
     />
 
